@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+notebook = ">=5.3"
+pandas = "*"
+numpy = "*"
+openpyxl = "*"
+matplotlib = "*"
+nbconvert = "*"
+seaborn = "*"
+sklearn = "*"
+statsmodels = "*"
+lightgbm = "*"
+ipywidgets = ">=7.5"
+plotly = ">=5.7.0"
+kaleido = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
